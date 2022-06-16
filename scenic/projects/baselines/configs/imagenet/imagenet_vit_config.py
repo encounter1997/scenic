@@ -92,7 +92,7 @@ def get_config(runlocal=''):
   config.model_dtype_str = 'float32'
 
   # Training.
-  config.trainer_name = 'classification_trainer'
+  config.trainer_name = 'transfer_trainer'
   config.optimizer = 'adam'
   config.optimizer_configs = ml_collections.ConfigDict()
   config.optimizer_configs.beta1 = 0.9
